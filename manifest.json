@@ -1,9 +1,10 @@
 {
   "id": "gm-note-shortcuts",
   "name": "GM Schnellbefehle",
-  "version": "1.2.0",
-  "minAppVersion": "1.11.4",
-  "description": "GM-Textformate, Charakterseiten und TODOs aus markiertem Text, mit Charakterverknüpfungen in Classic Notebook.",
-  "author": "Lokal",
-  "isDesktopOnly": true
+  "version": "1.2.1",
+  "minAppVersion": "1.14.5",
+  "description": "Format selected text for game mastering and create character notes and shared TODOs with optional Classic Notebook integration.",
+  "author": "Anton Schmidt",
+  "isDesktopOnly": true,
+  "authorUrl": "https://github.com/SetupCoding"
 }

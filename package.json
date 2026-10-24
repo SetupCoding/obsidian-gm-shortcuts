@@ -1,8 +1,8 @@
 {
   "name": "obsidian-gm-shortcuts",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
-  "description": "GM-Textformate, Charakterseiten und TODOs aus markiertem Text, mit Charakterverknüpfungen in Classic Notebook.",
+  "description": "Format selected text for game mastering and create character notes and shared TODOs with optional Classic Notebook integration.",
   "repository": {
     "type": "git",
     "url": "https://github.com/SetupCoding/obsidian-gm-shortcuts.git"
@@ -10,9 +10,12 @@
   "scripts": {
     "build": "node build.cjs",
     "test": "node build.cjs && node tests/run.cjs",
-    "test:integration": "node build.cjs && node tests/run.cjs --integration"
+    "test:integration": "node build.cjs && node tests/run.cjs --integration",
+    "check": "node --check main.js"
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "license": "MIT",
+  "author": "Anton Schmidt"
 }
