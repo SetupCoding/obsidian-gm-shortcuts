@@ -9,3 +9,5 @@ Use synthetic notes in tests and screenshots. Never include a real vault, `data.
 Keep core navigation working if an optional enhancement fails. Restore every patched method and event subscription on unload. Test disable/re-enable, stale asynchronous work and unsaved Canvas content when changing lifecycle code.
 
 See the MIT license. Contributions must be compatible with it; comparison with another plugin does not permit copying incompatible source.
+
+The common formatting modules are generated copies from Classic Notebook. See [AGENTS.md](AGENTS.md) before changing them. Use the shared deployment workflow to update installed vault copies after testing and committing source changes.

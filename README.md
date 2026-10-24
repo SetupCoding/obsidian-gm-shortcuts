@@ -31,6 +31,8 @@ There is no telemetry, account requirement or plugin-initiated network access. O
 
 Use Node.js 22+; run `npm run build`, `npm run check` and `npm test`. No package installation is needed for these steps. For integration tests, check out Classic Notebook into the sibling `obsidian-classic-notebook` directory, build it, then run `npm run test:integration` here. Set `CLASSIC_NOTEBOOK_DIR` for a different location.
 
-`shared/inline-text-formats.js` and `shared/color-edit.js` are duplicated identically in both projects so each plugin builds independently. Keep changes synchronized and test both plugins.
+`shared/inline-text-formats.js` and `shared/color-edit.js` are generated companion copies. Their canonical authoring location is Classic Notebook's `shared/` directory. Keep this repository independently buildable; refresh the copies with Classic Notebook's shared sync action and test both plugins.
 
 This release changes licensing and author/compatibility metadata; behavior is the same as 1.2.0. Automated standalone and integration tests run with simulated Obsidian objects. Windows is the development platform; mobile is unsupported. No community-directory approval or general cross-platform compatibility is claimed. [MIT license](LICENSE).
+
+For a common source and tested installation into several vaults, use [Classic Notebook's multi-vault workflow](https://github.com/SetupCoding/obsidian-classic-notebook/blob/main/docs/VAULT-SYNC.md). It preserves separate vault-local settings and notes.

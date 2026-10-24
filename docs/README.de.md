@@ -66,4 +66,4 @@ Bei einer anderen Ordnerstruktur kann `CLASSIC_NOTEBOOK_DIR` auf den gebauten Cl
 
 ## Gemeinsames Textformat
 
-`shared/inline-text-formats.js` und `shared/color-edit.js` sind in beiden Repos identisch. Damit bleibt jedes Plugin separat baubar. Änderungen an diesem Format müssen in beiden Repos übernommen und mit den Formatierungs- und Integrationstests geprüft werden.
+`shared/inline-text-formats.js` und `shared/color-edit.js` sind in beiden Repos identisch. Damit bleibt jedes Plugin separat baubar. Die gemeinsame Quelle liegt im Classic-Notebook-Repository unter shared/. Änderungen dort vornehmen, die Kopien über dessen gemeinsamen Sync-Befehl aktualisieren und beide Plugins testen.
