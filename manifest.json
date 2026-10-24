@@ -1,0 +1,9 @@
+{
+  "id": "gm-note-shortcuts",
+  "name": "GM Schnellbefehle",
+  "version": "1.2.0",
+  "minAppVersion": "1.11.4",
+  "description": "GM-Textformate, Charakterseiten und TODOs aus markiertem Text, mit Charakterverknüpfungen in Classic Notebook.",
+  "author": "Lokal",
+  "isDesktopOnly": true
+}
